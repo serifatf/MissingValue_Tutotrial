@@ -16,17 +16,30 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Why Should you Worry?
 
+1. Bias inferences
+2. 
+
 ## Causes of Missing Values
 
 # Missing Value Concepts
 
 ## Assumptions
 
-- MCAR
-- MAR
-- MNAR
+$f(y^o, y^m | x) = f(y^o)$
+
+Rubin's taxonomy of missingness;
+
+- Missing Completely at random (MCAR)
+- Missing at Random (MAR)
+- Missing not at Random (MNAR)
 
 ## MCAR
+
+- <span style="color:red"> missingness can't be tied to any cause.</span> It happened completely at random.
+
+- $f(y^o, y^m | x) = f(y^0|x) \alert{f(y^m)}$
+
+- Solution? Just delete the missing records.
 
 ## MAR
 
