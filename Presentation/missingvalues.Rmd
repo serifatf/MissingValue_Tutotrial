@@ -1,0 +1,49 @@
+---
+title: "Dealing with Missing Values in R"
+author: "Serifat Folorunso$^{1}$"
+output:
+  beamer_presentation:
+    theme: "Singapore"
+    fonttheme: "structurebold"
+institute: "UI-LISA$^{1}$ "
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+# Introduction
+
+## Why Should you Worry?
+
+## Causes of Missing Values
+
+# Missing Value Concepts
+
+## Assumptions
+
+- MCAR
+- MAR
+- MNAR
+
+## MCAR
+
+## MAR
+
+## MNAR
+
+# Demonstrations
+
+## Dataset
+
+## Wrong Analysis
+
+## Acceptable Analysis
+
+## Sensitivity Analysis
+
+# Take Home
+
+## Conclusion
+
+
